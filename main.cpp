@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-    int a, b;
+    double a, b;
     cin >> a >> b;
     a / b;
     a % b;
@@ -17,4 +17,9 @@ int main()
         cout << "max: "<< b;
     if (b < a)
         cout << "max: "<< a;
+    if (a < b)
+        cout << "min: "<< a;
+    if (b < a)
+        cout << "min: "<< b;
+
 }
