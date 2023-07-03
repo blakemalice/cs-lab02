@@ -17,9 +17,4 @@ int main()
         cout << "max: "<< b;
     if (b < a)
         cout << "max: "<< a;
-    if (a < b)
-        cout << "min: "<< a;
-    if (b < a)
-        cout << "min: "<< b;
-
 }
